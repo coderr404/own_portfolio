@@ -1,0 +1,25 @@
+.mainPage{
+    background-color: #0c0821;
+
+    /* height: fit-content; */
+    /* height: 100px; */
+    /* width: 100px; */
+}
+
+.imgg{
+    max-width: 100%;
+   /* min-width: 40%; */
+    /* min-height: 80%; */
+    height: auto;
+}
+
+.poppins{
+    font-family: Poppins, 'sans-serif';
+}
+
+
+@media (max-width: 1050px) {
+  /* .mainPage {
+    flex-direction: column-reverse;
+  } */
+}

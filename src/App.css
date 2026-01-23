@@ -1,0 +1,72 @@
+.custum_hamburger {
+  display: none;
+}
+
+
+
+@media (max-width: 800px) {
+  .customMainPage {
+    flex-direction: column-reverse;
+  }
+
+
+  .web_menu {
+    display: none;
+    /* visibility: hidden; */
+    align-items: flex-start;
+  }
+
+  .custum_hamburger {
+    display: block;
+  }
+
+  .custom_login {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-inline: 10px;
+  }
+
+  .mobile_menu {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 25rem;
+    background-color: rgba(8, 47, 73, 0.3);
+    width: 100%;
+    padding-left: 10px;
+    position: fixed;
+    left: 0;
+    padding-top: 14px;
+    color: #fff;
+    z-index: 1000;
+  }
+  .customImg{
+    width: 400px;
+    padding-left: 39px;
+  }
+
+  .custom_About{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 5px;
+  }
+
+  .custom-my-project{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+
+@media (max-width: 410px){
+   .custom_Name{
+    font-size: 10px;
+   }
+   .custom_developer{
+    font-size: 20px;
+   }
+}
