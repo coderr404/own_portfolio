@@ -32,8 +32,8 @@ function MainPage() {
             I am a frontend developer and a fresher with a strong interest in building clean, responsive, and user-friendly web interfaces. I work with HTML, CSS, JavaScript, and React to create modern web applications. 
           </p>
           <div className={`p-5 mt-5 flex gap-4`}>
-            <Link to='Recent_project' className={`border border-blue-500 text-blue-400 px-4 py-2 rounded-md text-sm hover:bg-blue-500 duration-300 hover:text-white transition`}>Recent project</Link>
-            <Link to='Own_portfolio' className={`border border-gray-500 px-4 py-2 rounded-md text-sm flex items-center gap-2 hover:bg-gray-700 duration-300 transition`}>Porfolio</Link>
+            <Link  className={`border border-blue-500 text-blue-400 px-4 py-2 rounded-md text-sm hover:bg-blue-500 duration-300 hover:text-white transition`}>Recent project</Link>
+            <a  className={`border border-gray-500 px-4 py-2 rounded-md text-sm flex items-center gap-2 hover:bg-gray-700 duration-300 transition`}>Porfolio</a>
           </div>
         </div>
         <div className={` mx-11 ${styles.imgg}`}>

@@ -1,14 +1,12 @@
-import Quiz from "../assets/images/quiz.png";
+import Quiz from "../assets/images/server.jpg";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import {Link} from 'react-router-dom'
 
 const techStack = [
-  "HTML",
-  "CSS",
-  "JavaScript",
   "Tailwind",
   "React JS",
   "Node JS",
+  "Expresh js"
 ];
 
 function MyProject() {
@@ -29,7 +27,7 @@ function MyProject() {
 
           {/* Hover Overlay */}
           <Link
-            to="https://quiz-time-now.netlify.app/"
+            to="https://storage-web-app.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute inset-0 bg-black/60 flex items-center justify-center
@@ -67,7 +65,7 @@ function MyProject() {
           {/* Action Buttons */}
           <div className="pt-5 pb-5 flex gap-3">
             <Link
-              to="https://quiz-time-now.netlify.app/"
+              to="https://storage-web-app.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-blue-500 text-blue-400 px-4 py-2 rounded-md
@@ -77,7 +75,7 @@ function MyProject() {
             </Link>
 
             <a
-              href="https://github.com/coderr404/javaScript_Project/tree/main/Quiz_App"
+              href="https://github.com/coderr404/Frontend-for-storage"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-500 px-4 py-2 rounded-md text-sm
