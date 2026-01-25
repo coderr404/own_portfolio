@@ -11,6 +11,7 @@ const techStack = [
 
 function MyProject() {
   return (
+    <>
     <section className="bg-slate-800 text-white pt-24 min-h-screen" id ="Project">
       <h1 className="custom-my-project text-center text-4xl font-bold p-7 text-amber-700">
         My Project
@@ -87,6 +88,7 @@ function MyProject() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 
