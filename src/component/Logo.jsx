@@ -1,5 +1,5 @@
-import React from 'react'
-import logo from "../assets/logo.jpg";
+// import React from 'react'
+// import logo from "../assets/Logo.jpg";
 import styles from './Logo.module.css'
 
  function Logo() {
